@@ -98,3 +98,9 @@ h5
     color: #28a745;
     border: 2px solid #28a745;
   }
+  h6{
+    text-align: left;
+
+    color:rgba(255, 0, 0, 0.575);
+    width: 300px;
+    }

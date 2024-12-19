@@ -5,37 +5,6 @@ body {
     background-image: url(../images/bg_3.jpg)
 }
 
-.footer {
-    background-color: #101315;
-    color: white;
-    width: 97%;
-    padding: 20px;
-}
-
-.footer h3 {
-    color: white;
-}
-
-.footer p, .footer a {
-    color: #ccc;
-}
-
-.footer a:hover {
-    color: #fac564;
-}
-
-.footer .footer-column {
-    display: inline-block;
-    vertical-align: top;
-    width: 22%;
-    margin: 10px 20px 20px 10px;
-}
-
-.footer .footer-column:last-child {
-    margin-right: 0;
-}
-
-
 .signup-container {
     background-color: white;
     width: 50%;
@@ -71,7 +40,7 @@ body {
 
 .signup-container form button {
     padding: 10px;
-    background-color: black;
+    background-color: #180b5f;
     border: none;
     color:white;
     font-size: 1em;
@@ -83,9 +52,9 @@ body {
 }
 
 .signup-container form button:hover {
-    background-color: #fac564;
-    border:2px #fac564 solid;
-    color:black;
+    background-color: white;
+    border:2px #180b5f solid;
+    color:#180b5f;
 }
 h6{
     padding: 0;
@@ -125,5 +94,7 @@ h5
   }
   
   .signin-btn:hover {
-    background-color:#fac564;
+    background-color:white;
+    color: #28a745;
+    border: 2px solid #28a745;
   }

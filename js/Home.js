@@ -95,6 +95,7 @@ console.log(btn1);
 
 function logout() {
     localStorage.removeItem("loggedInUser");
+    localStorage.removeItem("cart");
     alert("You have been logged out.");
     window.location.href = "index.html";
 }

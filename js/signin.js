@@ -33,5 +33,6 @@ function login() {
     localStorage.setItem("loggedInUser", user.id);
     alert("Login successful!");
 
+    localStorage.removeItem("cart");
     window.location.href = "index.html";
 }

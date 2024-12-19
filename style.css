@@ -1,0 +1,311 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+/* Container for the image slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    /* Adjust size as needed */
+    height: 650px;
+    /* Adjust size as needed */
+    overflow: hidden;
+    margin: 0 auto;
+    /* Center the slider */
+}
+
+/* The image element */
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 0;
+    /* Start with the image hidden */
+    transition: opacity 0.5s ease-in-out;
+    /* Smooth fade effect */
+}
+
+/* Navigation buttons */
+.navigation {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+/* Button styles */
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* 
+#slider-container{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    }
+#slider-container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s; 
+ 
+}
+#slider-container img.active {
+    opacity: 1;
+} */
+
+#guide {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.guide-btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 60px;
+    border-color: transparent;
+    font-size: 15px;
+}
+
+.guide-btn:hover {
+    background-color: #180b5f;
+    color: azure;
+    cursor: pointer;
+
+}
+
+.activeBtn {
+    background-color: #180b5f;
+    color: #fff;
+}
+
+#products {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 15px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.product-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: fill;
+}
+
+.product-details {
+    padding: 15px;
+}
+
+.product-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.add-to-cart-btn {
+    display: inline-block;
+    padding: 10px 19px;
+    background-color: #180b5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #fff;
+    color: #180b5f;
+    border: 1px solid #180b5f;
+}
+
+#s3 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+div.props {
+    background-color: gainsboro;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1em;
+}
+
+div.back-props {
+    background-color: color-mix(in hsl shorter hue, #121FCF 0%, #CF1512 100%);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+
+div.prop-details h2 {
+    margin-bottom: 10px;
+}
+
+div.prop-image {
+    margin-bottom: 35px;
+    justify-items: center;
+}
+
+.back-props i {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+  }
+  
+  .back-to-top:hover {
+    background-color: #0056b3;
+  }
+
+/*.footer {
+    background-color: #101315;
+    color: white;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.footer p, .footer a {
+    color: #ccc;
+    text-decoration-line: none;
+    
+}
+
+.footer a:hover {
+    color: #fac564;
+}
+
+#foot-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.footer-column{
+    width: 300px;
+    
+}
+.footer-column h3{
+    padding-bottom: 10px;
+}
+.footer-column p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#foot-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+#social i{
+    font-size: 30px;
+    padding: 0.5em;
+
+}
+*/

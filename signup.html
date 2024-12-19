@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Fruitables</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <h2 id="h2">Create Your Account</h2>
+        <form id="todeletejs" action="/submit-signup" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <span id="spanName"></span>
+
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <span id="spanEmail"></span>
+
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <span id="spanPass"></span>
+
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password"
+                required>
+            <span id="spanConfirmPass"></span>
+
+
+            <button type="submit" onclick="SignUp()">Sign Up</button>
+            <span id="accoutCreate"></span>
+        </form>
+        <div class="signin-link">
+            <a href="signin.html">
+                <button class="signin-btn">LogIn</button>
+            </a>
+        </div>
+    </div>
+
+
+
+    <script src="js/Home.js"></script>
+    <script src="js/details.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/signin.js"></script>
+</body>
+
+</html>

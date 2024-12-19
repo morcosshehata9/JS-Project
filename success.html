@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header&footer.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Container for the animation */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .animation-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+
+        /* Car element */
+        .car {
+            position: absolute;
+            bottom: 10px;
+            width: 100px;
+            animation: drive 4s linear infinite;
+        }
+
+        /* Image for the car */
+        .car img {
+            display: block;
+        }
+
+        /* Status message */
+        .status {
+            margin-top: 20px;
+            font-size: 50px;
+            font-weight: bold;
+            color: green;
+        }
+
+        /* Animation for the car movement */
+        @keyframes drive {
+            0% {
+                left: -10px;
+                /* Start off-screen on the left */
+            }
+
+            100% {
+                left: 100%;
+                /* Move off-screen to the right */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="main-nav">
+            <div id="logo">
+                <h1 style="color: #180b5f;"><a href="#">Gourmet</a></h1>
+            </div>
+            <div id="linksOfNav">
+                <ul id="nav-list">
+                    <a href="index.html" class="nav-links">
+                        <li>Home</li>
+                    </a>
+                    <a href="index.html#s2" class="nav-links">
+                        <li>Shop</li>
+                    </a>
+                    <a href="#footer" class="nav-links">
+                        <li>About Us</li>
+                    </a>
+                    <a href="#footer" class="nav-links">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="rightOfNav">
+
+                <p id="welcomeuser" style="display: none; font-size: 20px; color: #180b5f;"></p>
+                <a class="sign" id="login" href="signin.html">Login</a> | <a class="sign" id="signup"
+                    href="signup.html">Sign Up</a>
+
+                <button class="logout" id="logout" onclick="logout()">Logout</button>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #180b5f;"></i></a>
+
+            </div>
+        </nav>
+    </header>
+    <div class="animation-container">
+        <div class="road">
+            <div class="car">
+                <p class="status">Your Order Shipped Successfully!!</p>
+                <img src="images/delivery.png" alt="Car" width="100%" height="auto">
+            </div>
+        </div>
+    </div>
+    <script src="js/Home.js"></script>
+    <script src="js/details.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/signin.js"></script>
+
+</body>
+
+</html>

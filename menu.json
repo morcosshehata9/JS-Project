@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "name": "Margherita Pizza",
+        "price": 8.99,
+        "description": "Classic pizza with tomato sauce, mozzarella, and basil.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cheeseburger",
+        "price": 6.99,
+        "description": "Beef burger with cheddar cheese, lettuce, tomato, and onion.",
+        "category": "Burger",
+        "quantity": 1,
+        "image": "images/burger-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fried Bucket",
+        "price": 12.99,
+        "description": "Crispy fried chicken with a side of fries.",
+        "category": "Fried Chicken",
+        "quantity": 1,
+        "image": "images/french.webp"
+    },
+    {
+        "id": 4,
+        "name": "Pepperoni Pizza",
+        "price": 9.99,
+        "description": "Pizza with tomato sauce, mozzarella, and pepperoni.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Veggie Burger",
+        "price": 7.49,
+        "description": "Vegetarian burger with lettuce, tomato, and vegan cheese.",
+        "category": "Burger",
+        "quantity": 1,
+        "image": "images/sand-2.png"
+    },
+    {
+        "id": 6,
+        "name": "BBQ Pizza",
+        "price": 11.99,
+        "description": "Pizza with BBQ sauce, grilled chicken, red onions, and cilantro.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-3.png"
+    },
+    {
+        "id": 7,
+        "name": "Fish and Chips",
+        "price": 10.49,
+        "description": "Crispy battered fish fillets served with golden fries.",
+        "category": "Fried Chicken",
+        "quantity": 1,
+        "image": "images/sand-1.png"
+    },
+    {
+        "id": 8,
+        "name": "Spicy Chicken",
+        "price": 7.99,
+        "description": "Hot and spicy chicken wings served with dipping sauce.",
+        "category": "Fried Chicken",
+        "quantity": 1,
+        "image": "images/sand-3.png"
+    },
+    {
+        "id": 9,
+        "name": "Classic Caesar",
+        "price": 5.99,
+        "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
+        "category": "Burger",
+        "quantity": 1,
+        "image": "images/sand-4.png"
+    },
+    {
+        "id": 10,
+        "name": "Tuna Sandwich",
+        "price": 6.49,
+        "description": "A fresh sandwich filled with tuna salad, lettuce, and tomato.",
+        "category": "Burger",
+        "quantity": 1,
+        "image": "images/sand-5.png"
+    },
+    {
+        "id": 11,
+        "name": "Cheese Fries",
+        "price": 4.99,
+        "description": "Golden fries topped with melted cheese.",
+        "category": "Sides",
+        "quantity": 1,
+        "image": "images/french.webp"
+    },
+    {
+        "id": 12,
+        "name": "Buffalo Pizza",
+        "price": 10.99,
+        "description": "Pizza with buffalo sauce, grilled chicken, and blue cheese.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-4.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Chicken Tenders",
+        "price": 7.49,
+        "description": "Crispy chicken tenders served with dipping sauce.",
+        "category": "Fried Chicken",
+        "quantity": 1,
+        "image": "images/sand-5.png"
+    },
+    {
+        "id": 14,
+        "name": "Mushroom Burger",
+        "price": 8.49,
+        "description": "Beef burger with sautéed mushrooms and Swiss cheese.",
+        "category": "Burger",
+        "quantity": 1,
+        "image": "images/sand-6.jpg"
+    },
+    {
+        "id": 15,
+        "name": "BBQ Ribs",
+        "price": 14.99,
+        "description": "Tender ribs glazed with BBQ sauce, served with fries.",
+        "category": "Fried Chicken",
+        "quantity": 1,
+        "image": "images/sand-7.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Hawaiian Pizza",
+        "price": 10.49,
+        "description": "Pizza with ham, pineapple, and mozzarella cheese.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-5.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Double Cheeseburger",
+        "price": 9.99,
+        "description": "Two beef patties with cheddar cheese, lettuce, and tomato.",
+        "category": "Burger",
+        "quantity": 1,
+        "image": "images/burger-4.png"
+    },
+    {
+        "id": 18,
+        "name": "Chicken Parmesan",
+        "price": 11.99,
+        "description": "Breaded chicken topped with marinara sauce and mozzarella cheese.",
+        "category": "Fried Chicken",
+        "quantity": 1,
+        "image": "images/menu-item-4.png"
+    },
+    {
+        "id": 19,
+        "name": "Pasta Alfredo",
+        "price": 9.49,
+        "description": "Creamy Alfredo sauce served with fettuccine pasta.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/pasta-1.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Vegetable Pizza",
+        "price": 8.49,
+        "description": "Pizza topped with mushrooms, peppers, onions, and olives.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-6.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Garlic Bread",
+        "price": 3.99,
+        "description": "Toasted bread topped with garlic butter and parsley.",
+        "category": "Sides",
+        "quantity": 1,
+        "image": "./images/menu-item-4.png"
+    },
+    {
+        "id": 22,
+        "name": "Veggie Wrap",
+        "price": 7.99,
+        "description": "A healthy wrap filled with fresh vegetables and hummus.",
+        "category": "Sandwich",
+        "quantity": 1,
+        "image": "images/menu-item-1.png"
+    },
+    {
+        "id": 23,
+        "name": "Chicken Quesadilla",
+        "price": 8.49,
+        "description": "Grilled quesadilla filled with seasoned chicken and cheese.",
+        "category": "Mexican",
+        "quantity": 1,
+        "image": "images/menu-item-2.png"
+    },
+    {
+        "id": 24,
+        "name": "BBQ Salad",
+        "price": 9.99,
+        "description": "Grilled chicken, mixed greens, and BBQ dressing.",
+        "category": "Salad",
+        "quantity": 1,
+        "image": "images/menu-item-3.png"
+    },
+    {
+        "id": 25,
+        "name": "Buffalo Chicken Sandwich",
+        "price": 8.49,
+        "description": "Spicy buffalo chicken with lettuce and ranch dressing.",
+        "category": "Sandwich",
+        "quantity": 1,
+        "image": "images/burger-1.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Cheese Pizza",
+        "price": 7.99,
+        "description": "Pizza topped with a generous amount of mozzarella cheese.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-7.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Pepper Jack Burger",
+        "price": 8.99,
+        "description": "Beef burger with pepper jack cheese, jalapeños, and chipotle mayo.",
+        "category": "Burger",
+        "quantity": 1,
+        "image": "images/sand-8.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Fish Tacos",
+        "price": 9.49,
+        "description": "Grilled fish in soft tortillas with cabbage and lime.",
+        "category": "Mexican",
+        "quantity": 1,
+        "image": "images/food2.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Cheesesteak Sandwich",
+        "price": 10.99,
+        "description": "Philly-style cheesesteak with sautéed onions and peppers.",
+        "category": "Sandwich",
+        "quantity": 1,
+        "image": "images/burger-2.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Caesar Wrap",
+        "price": 7.99,
+        "description": "Grilled chicken, romaine lettuce, Caesar dressing wrapped in a tortilla.",
+        "category": "Wrap",
+        "quantity": 1,
+        "image": "images/food3.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Taco Salad",
+        "price": 8.49,
+        "description": "Seasoned ground beef with lettuce, tomatoes, cheese, and salsa.",
+        "category": "Mexican",
+        "quantity": 1,
+        "image": "images/n1.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Chicken Fajitas",
+        "price": 11.99,
+        "description": "Grilled chicken served with sautéed peppers, onions, and tortillas.",
+        "category": "Mexican",
+        "quantity": 1,
+        "image": "images/gallery_1.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Margarita Pizza",
+        "price": 9.99,
+        "description": "Classic pizza with fresh tomatoes, mozzarella, and basil.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-2.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Chicken Club Sandwich",
+        "price": 8.99,
+        "description": "Grilled chicken, bacon, lettuce, tomato, and mayo.",
+        "category": "Sandwich",
+        "quantity": 1,
+        "image": "images/burger-7.jpg"
+    },
+    {
+        "id": 35,
+        "name": "BLT Sandwich",
+        "price": 6.49,
+        "description": "Bacon, lettuce, tomato, and mayo on toasted bread.",
+        "category": "Sandwich",
+        "quantity": 1,
+        "image": "images/burger-6.png"
+    },
+    {
+        "id": 36,
+        "name": "Meatball Sub",
+        "price": 7.99,
+        "description": "Italian meatballs, marinara sauce, and melted mozzarella on a sub roll.",
+        "category": "Sandwich",
+        "quantity": 1,
+        "image": "images/pasta-3.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Buffalo Wings",
+        "price": 8.99,
+        "description": "Crispy wings tossed in buffalo sauce and served with ranch dressing.",
+        "category": "Fried Chicken",
+        "quantity": 1,
+        "image": "images/burger-4.png"
+    },
+    {
+        "id": 38,
+        "name": "Spaghetti Bolognese",
+        "price": 10.49,
+        "description": "Spaghetti served with a rich tomato and ground beef sauce.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/pasta-1.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Fettuccine Alfredo",
+        "price": 10.99,
+        "description": "Creamy Alfredo sauce served over fettuccine pasta.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/pasta-2.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Ravioli",
+        "price": 9.99,
+        "description": "Stuffed pasta with ricotta and spinach, served in marinara sauce.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/ravioli.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Lasagna",
+        "price": 12.49,
+        "description": "Layers of pasta, meat sauce, and cheese baked to perfection.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/pasta-6.png"
+    },
+    {
+        "id": 42,
+        "name": "Penne Arrabbiata",
+        "price": 9.49,
+        "description": "Penne pasta in a spicy tomato sauce with garlic and red pepper flakes.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/pasta-5.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Pesto Pizza",
+        "price": 10.49,
+        "description": "Pizza with pesto sauce, mozzarella, and sun-dried tomatoes.",
+        "category": "Pizza",
+        "quantity": 1,
+        "image": "images/pizza-10.png"
+    },
+    {
+        "id": 44,
+        "name": "Chicken Caesar Wrap",
+        "price": 8.49,
+        "description": "Grilled chicken, romaine lettuce, Caesar dressing, and parmesan cheese.",
+        "category": "Wrap",
+        "quantity": 1,
+        "image": "images/menu-item-5.png"
+    },
+    {
+        "id": 45,
+        "name": "Tacos",
+        "price": 5.99,
+        "description": "Soft tortillas with seasoned beef, lettuce, and cheese.",
+        "category": "Mexican",
+        "quantity": 1,
+        "image": "images/menu-item-6.png"
+    },
+    {
+        "id": 46,
+        "name": "Beef Burrito",
+        "price": 6.49,
+        "description": "A large flour tortilla filled with seasoned beef, rice, and beans.",
+        "category": "Mexican",
+        "quantity": 1,
+        "image": "images/pizza-14.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Chicken Burrito",
+        "price": 6.49,
+        "description": "A flour tortilla filled with grilled chicken, rice, beans, and salsa.",
+        "category": "Mexican",
+        "quantity": 1,
+        "image": "images/burger-3.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Pulled Pork Sandwich",
+        "price": 8.49,
+        "description": "Tender pulled pork served on a bun with BBQ sauce.",
+        "category": "Sandwich",
+        "quantity": 1,
+        "image": "images/burger-7.jpg"
+    },
+    {
+        "id": 49,
+        "name": "Mushroom Risotto",
+        "price": 11.49,
+        "description": "Creamy risotto with sautéed mushrooms and parmesan cheese.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/food1.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Shrimp Scampi",
+        "price": 12.99,
+        "description": "Shrimp cooked in garlic butter and served with linguine.",
+        "category": "Pasta",
+        "quantity": 1,
+        "image": "images/pizza-4.jpg"
+    }
+]

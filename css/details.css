@@ -1,0 +1,188 @@
+header {
+    padding-left: 5em;
+    padding-right: 5em;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    width: 92%;
+    box-shadow: 2px black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#logo {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+div#linksOfNav {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+ul#nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+a.nav-links {
+    padding: 1em;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+a.nav-links:hover {
+    color: #81c408;
+}
+
+div#rightOfNav i {
+
+    padding: 0.5em;
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    padding: 100px;
+}
+
+#left {
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#left img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#right {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.card {
+    padding: 20px;
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.category {
+    color: #777;
+    font-size: 25px;
+    margin: 0 5px 5px 0;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+
+}
+
+.rating i {
+    color: gold;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.rating i.gray {
+    color: #ccc;
+}
+
+.description {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.quantity-controls {
+    margin-top: 20px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quantity-controls button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #ddd;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-controls span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.quantity-controls button:hover {
+    background: #bbb;
+}
+
+
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 19px;
+    background-color: #180b5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #fff;
+    color: #180b5f;
+    border: 1px solid #180b5f;
+}
+
+.add-to-cart {
+    margin-top: 40px;
+    color: white;
+}

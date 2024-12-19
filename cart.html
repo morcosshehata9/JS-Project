@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/header&footer.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="main-nav">
+            <div id="logo">
+                <h1 style="color: #180b5f;"><a href="#">Gourmet</a></h1>
+            </div>
+            <div id="linksOfNav">
+                <ul id="nav-list">
+                    <a href="index.html" class="nav-links">
+                        <li>Home</li>
+                    </a>
+                    <a href="index.html#s2" class="nav-links">
+                        <li>Shop</li>
+                    </a>
+                    <a href="#footer" class="nav-links">
+                        <li>About Us</li>
+                    </a>
+                    <a href="#footer" class="nav-links">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="rightOfNav">
+
+                <p id="welcomeuser" style="display: none; font-size: 20px; color: #180b5f;"></p>
+                <a class="sign" id="login" href="signin.html">Login</a> | <a class="sign" id="signup"
+                    href="signup.html">Sign Up</a>
+
+                <button class="logout" id="logout" onclick="logout()">Logout</button>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #180b5f;"></i></a>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Products</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Handle</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+
+            </tbody>
+        </table>
+        <div id="payment">
+            <div>
+                <div id="cart-total">
+
+                </div>
+                <a href="#" class="checkout-btn" id="butBtn" onclick="confirmThisBuy()">BUY NOW</a>
+            </div>
+            <div>
+                <img src="images/payment.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div id="footer">
+            <div id="foot-head">
+                <div class="footer-column">
+                    <h3>Gourmet</h3>
+                    <p>Delicious Food</p>
+                </div>
+                <div id="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <hr width="1200px">
+            <div id="foot-content">
+                <div class="footer-column">
+                    <h3>Why People Like us!</h3>
+                    <p>typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus
+                        PageMaker including of Lorem Ipsum.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Shop Info</h3>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms & Conditions</a></p>
+
+                </div>
+                <div class="footer-column">
+                    <h3>Account</h3>
+                    <p><a href="#">My Account</a></p>
+                    <p><a href="#">Wishlist</a></p>
+                    <p><a href="#">Order History</a></p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>1429 Netus Rd, NY 48247</p>
+                    <p>Email: example@gmail.com</p>
+                    <p>Phone: +0123 4567 8910</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/Home.js"></script>
+    <script src="js/details.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/signin.js"></script>
+</body>
+
+</html>

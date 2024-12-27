@@ -80,6 +80,7 @@ function confirmThisBuy() {
     }
     else {
         if (confirm("Are you sure to buy?")) {
+            localStorage.removeItem("cart");
             window.location.href = "success.html"
         }
     }
@@ -95,7 +96,6 @@ console.log(btn1);
 
 function logout() {
     localStorage.removeItem("loggedInUser");
-    localStorage.removeItem("cart");
     alert("You have been logged out.");
     window.location.href = "index.html";
 }
@@ -140,7 +140,6 @@ function getAllProducts() {
 
 
 function getSomeProducts() {
-
     fetch('http://localhost:3000/menu')
         .then(respone => respone.json())
         .then(data => {
@@ -301,8 +300,6 @@ function getFriedChicken() {
 }
 
 function passElementToCartFromDetails(productid) {
-
-
     fetch('http://localhost:3000/menu')
         .then(response => response.json())
         .then(data => {
@@ -329,8 +326,6 @@ function passElementToCartFromDetails(productid) {
 }
 
 function passElementToCart(productid) {
-
-
     fetch('http://localhost:3000/menu')
         .then(response => response.json())
         .then(data => {
@@ -470,7 +465,7 @@ function updateQuantityInDetails(productId, change) {
             .then(data => {
                 product = data.find(item => item.id == productId);
                 if (product) {
-                    product.quantity = 1; // Default quantity
+                    //product.quantity = 1; // Default quantity
                     product.quantity = change;
                     cart.push(product);
                     localStorage.setItem("cart", JSON.stringify(cart));
@@ -565,7 +560,7 @@ function displayDetails() {
         divQuantity.classList.add("quantity-controls");
         divQuantity.innerHTML = `
                                     <button class="decrease-btn" onclick="updateQuantityInDetails(${item.id}, -1)">-</button>
-                                     <span id="quantity-${item.id}" class="quantity">${item.quantity || 1}</span>
+                                     <span id="quantity-${item.id}" class="quantity">${item.quantity || 0}</span>
                                     <button class="increase-btn" onclick="updateQuantityInDetails(${item.id}, 1)">+</button>`;
 
         var cartButton = document.createElement("button");

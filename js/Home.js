@@ -80,8 +80,9 @@ function confirmThisBuy() {
     }
     else {
         if (confirm("Are you sure to buy?")) {
-            localStorage.removeItem("cart");
             window.location.href = "success.html"
+            localStorage.removeItem("cart");
+
         }
     }
 }

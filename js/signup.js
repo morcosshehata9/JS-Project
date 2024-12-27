@@ -5,6 +5,11 @@ if (localStorage.getItem("users") != null) {
     usersarray = JSON.parse(localStorage.getItem("users"));
 }
 
+function validateName(name) {
+    const nameRegex = /^[a-zA-Z\s]+$/;
+    return nameRegex.test(name);
+}
+
 function SignUp() {
     event.preventDefault();
 

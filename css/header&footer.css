@@ -8,7 +8,6 @@ header {
     background-color: white;
     width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    justify-content: space-evenly;
 }
 
 #logo a {
@@ -19,7 +18,8 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
@@ -39,13 +39,13 @@ div#logo {
 }
 
 div#linksOfNav {
-    margin-right: 200px;
-    margin-left: 200px;
+
 }
 
 ul#nav-list {
     display: flex;
     list-style-type: none;
+
 }
 
 a.nav-links {
@@ -59,6 +59,7 @@ a.nav-links {
 a.nav-links:hover {
     color: #180b5f;
 }
+
 
 div#rightOfNav i {
 

@@ -249,7 +249,7 @@
         "description": "Grilled fish in soft tortillas with cabbage and lime.",
         "category": "Mexican",
         "quantity": 0,
-        "image": "images/food2.jpg"
+        "image": "images/menu-image1.jpg"
     },
     {
         "id": 29,
@@ -267,7 +267,7 @@
         "description": "Grilled chicken, romaine lettuce, Caesar dressing wrapped in a tortilla.",
         "category": "Wrap",
         "quantity": 0,
-        "image": "images/food3.jpg"
+        "image": "images/menu-item-5.png"
     },
     {
         "id": 31,
@@ -285,7 +285,7 @@
         "description": "Grilled chicken served with sautéed peppers, onions, and tortillas.",
         "category": "Mexican",
         "quantity": 0,
-        "image": "images/gallery_1.jpg"
+        "image": "images/menu-item-4.png"
     },
     {
         "id": 33,
@@ -357,7 +357,7 @@
         "description": "Stuffed pasta with ricotta and spinach, served in marinara sauce.",
         "category": "Pasta",
         "quantity": 0,
-        "image": "images/ravioli.jpg"
+        "image": "images/menu-item-3.png"
     },
     {
         "id": 41,
@@ -393,7 +393,7 @@
         "description": "Grilled chicken, romaine lettuce, Caesar dressing, and parmesan cheese.",
         "category": "Wrap",
         "quantity": 0,
-        "image": "images/menu-item-5.png"
+        "image": "images/menu-item-6.png"
     },
     {
         "id": 45,
@@ -438,7 +438,7 @@
         "description": "Creamy risotto with sautéed mushrooms and parmesan cheese.",
         "category": "Pasta",
         "quantity": 0,
-        "image": "images/food1.jpg"
+        "image": "images/menu-item-2.png"
     },
     {
         "id": 50,
